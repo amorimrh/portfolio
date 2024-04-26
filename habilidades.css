@@ -1,0 +1,320 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* ESTILIZAÇÂO GERAL*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #280e42;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #411969;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+h2.titulo {
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #280e42;
+}
+
+h2.titulo {
+    cursor: default;
+}
+
+h2 {
+    cursor: default;
+}
+
+.especialidades-box h3, .especialidades-box ol {
+    cursor: default;
+}
+
+/* ESTILO NAVBAR */
+
+header {
+    padding: 40px 4%;
+}
+
+header h1 span {
+    text-shadow: 2px 2px 4px #1E1E2A;
+}
+
+header a {
+    color: #5c5c5c;
+    display: inline-block;
+}
+
+header .menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+    border-color: #1E1E2A;
+    transition: border-color 0.3s ease;
+    transition: .3s;
+}
+
+.menu-desktop a {
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+}
+
+header > .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 35px;
+}
+
+/*PRIMEIRA SESSÂO*/
+
+.topo-do-site {
+    padding: 40px 5%;
+}
+
+.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+}
+
+.tittle {
+    padding-right: 200px;
+    position: relative;
+    animation: flututuar 2s ease-in-out;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.tittle h1 {
+    font-size: 38px;
+    padding-bottom: 5px;
+}
+
+.tittle h2 {
+    padding-bottom: 40px;
+    font-size: 28px;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flututuar 2s ease-in-out;
+}
+
+main .topo-do-site button {
+    position: relative;
+    animation: flututuar 2s ease-in-out;
+}
+
+.btn-contato {
+    padding-right: 10px;
+    display: inline-block;
+}
+
+/* CARDS ACADEMICOS */
+
+section.academicos {
+    padding: 120px  4%;
+}
+
+.academicos .especialidades-box {
+    margin: 0 auto;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #411969;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.academicos .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #411969;
+}
+
+.academicos .especialidades-box i {
+    font-size: 70px;
+    color: #280e42;
+}
+
+.academicos .especialidades-box h3 {
+    font-size: 28px;
+    margin: 25px 0;
+}
+
+/* CARDS LINGUAGENS */
+
+section.linguagens {
+    padding: 120px  4%;
+}
+
+.linguagens .especialidades-box {
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #411969;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.linguagens .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #411969;
+}
+
+.linguagens .especialidades-box i {
+    font-size: 70px;
+    color: #280e42;
+}
+
+.linguagens .especialidades-box h3 {
+    font-size: 28px;
+    margin: 25px 0;
+}
+
+/* CARDS HABILIDADES E COMPETENCIAS */
+
+section.habilidades {
+    padding: 60px  4%;
+    box-shadow: 0px 0px 40px 10px #41196985;
+}
+
+.habilidades .especialidades-box {
+    flex: 1;
+    margin: 15px;
+    padding: 40px;
+    border-radius: 20px;
+    border: 2px solid #411969;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.habilidades .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #411969;
+}
+
+.habilidades .especialidades-box i {
+    font-size: 70px;
+    color: #280e42;
+}
+
+.habilidades .especialidades-box h3 {
+    font-size: 28px;
+    margin: 25px 0;
+}
+
+ol li {
+    padding-bottom: 2px;
+}
+
+hr {
+    border: 2px solid #280e42;
+}
+
+h3 span {
+    color: #411969;
+}
+
+/* FOOTER */
+
+footer {
+    padding: 40px 4%;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #280e42;
+}
+
+
+/* FOOTER IMG*/
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+
+/* FOOTER BOLINHA */
+
+
+footer .sobre {
+    display: flex;
+    text-align: center;
+}
+
+/* FOOTER ESCRITO*/
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #280e42;
+    background-color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+.btn-social i {
+    color: #411969;
+}
+
+
+/* FOOTER ICON */
+
+footer .line-footer p i {
+    color: #280e42;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    margin-left: 5px;
+}

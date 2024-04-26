@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+/* ESTILIZAÇÂO GERAL*/
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 35px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #280e42;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-contato button:hover {
+    box-shadow: 0px 0px 8px #411969;
+    transform: scale(1.05);
+    transition: .3s;
+}
+
+h2.titulo {
+    font-size: 38px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #280e42;
+}
+
+h2.titulo {
+    cursor: default;
+}
+
+h2 {
+    cursor: default;
+}
+
+section.infr span {
+    color: #411969;
+}
+
+
+/* ESTILO NAVBAR */
+
+header {
+    padding: 40px 4%;
+}
+
+header h1 span {
+    text-shadow: 2px 2px 4px #1E1E2A;
+}
+
+header a {
+    color: #5c5c5c;
+    display: inline-block;
+}
+
+header .menu-desktop a:hover {
+    color: #fff;
+    transform: scale(1.05);
+    border-color: #1E1E2A;
+    transition: border-color 0.3s ease;
+    transition: .3s;
+}
+
+.menu-desktop {
+    padding-right: 28px;
+}
+
+.menu-desktop a {
+    padding: 10px 0;
+    border-bottom: 2px solid transparent;
+}
+
+header > .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 35px;
+}
+
+/* FORMULARIO */
+
+section.formulario {
+    padding: 60px 5%;
+}
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 35px;
+}
+
+form input, form textarea {
+    width: 100%;
+    background-color: #1e1e2a65;
+    border: 0;
+    outline: 0;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+
+form textarea {
+    resize: none;
+    max-height: 150px;
+}
+
+form .btn-enviar {
+    margin-top: 10px;
+    text-align: center;
+}
+
+form .btn-enviar input[type=submit] {
+    width: 130px;
+    background-color: #280e42;
+    font-weight: 900;
+    cursor: pointer;
+    transition: .5s;
+}
+
+form .btn-enviar input[type=submit]:hover {
+    box-shadow: 0px 0px 8px #411969;
+    transform: scale(1.05);
+}
+
+/* IFRAME */
+
+section.infr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 40px 10px #41196985;
+}
+
+/* CARDS FACUL */
+
+section.infr {
+    padding: 120px  4%;
+}
+
+.infr .especialidades-box {
+    flex: 1;
+    margin: 15px;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 45px;
+    transition: .2s;
+}
+
+.infr .especialidades-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 8px #411969;
+}
+
+.infr .especialidades-box i {
+    font-size: 70px;
+    color: #280e42;
+}
+
+.infr .especialidades-box h3 {
+    font-size: 28px;
+    margin: 25px 0;
+}
+
+
+/* FOOTER */
+
+footer {
+    padding: 40px 4%;
+}
+
+footer .flex {
+    justify-content: space-between;
+}
+
+footer .line-footer {
+    padding: 20px 0;
+}
+
+.borda {
+    border-top: 2px solid #280e42;
+}
+
+
+/* FOOTER IMG*/
+
+footer img{
+    width: 100px;
+    height: 100px;
+}
+
+/* FOOTER BOLINHA */
+
+
+footer .sobre {
+    display: flex;
+    text-align: center;
+}
+
+/* FOOTER ESCRITO*/
+
+.btn-social button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 2px solid #280e42;
+    background-color: black;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 0 5px;
+    transition: .2s;
+}
+
+.btn-social i {
+    color: #411969;
+}
+
+
+/* FOOTER ICON */
+
+footer .line-footer p i {
+    color: #280e42;
+    font-size: 22px;
+}
+
+footer .line-footer p a {
+    margin-left: 5px;
+}
